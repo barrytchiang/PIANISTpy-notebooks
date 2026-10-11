@@ -1,0 +1,40 @@
+# PIANISTpy notebooks
+
+Tutorials and the notebooks that reproduce the figures of the PIANISTpy paper. Every notebook is stored with its
+outputs and was run against the PIANISTpy release named below; the documentation site at
+[pianistpy.com](https://pianistpy.com) renders them as pages of its manual.
+
+The package itself is [PIANISTpy](https://github.com/barrytchiang/PIANISTpy); install it with
+`pip install pianistpy` before running a notebook.
+
+## Release
+
+These notebooks were run with PIANISTpy 0.9.0 (a pre-release). They are rerun and committed again with each
+release; the development branch of the package may be ahead of them.
+
+## Index
+
+### Tutorials (`tutorials/`)
+
+| Notebook | What it shows |
+|---|---|
+| `tutorials/particles.ipynb` | A sampler on an analytic Hernquist model: the draw, the enclosed mass against the closed form, a file written and read back |
+| `tutorials/observables.ipynb` | Line-of-sight dispersions at projected radii and over apertures, a prepared table, the same in physical units |
+
+Planned for 1.0.0: a truncated model (profile to distribution function to model, Method I and Method II);
+superposition and inference; an aperture of arbitrary geometry.
+
+### Reproducing the paper (`paper/`)
+
+One notebook per figure family of the paper, added with the 1.0.0 release: the distribution-function panels;
+the superposition figures with the fit of an anisotropy profile over the superposition weights; the observable
+mocks; the appendix figures.
+
+## Running a notebook
+
+Each notebook's first cell states the package version and the extra packages it needs beyond PIANISTpy. The
+figure notebooks of the paper build their models on a compute node; the tutorials run on a laptop.
+
+## License
+
+BSD 3-Clause, as the package; see `LICENSE`.

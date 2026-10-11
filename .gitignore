@@ -1,0 +1,10 @@
+# notebook checkpoints and caches
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+# model and particle files a notebook writes while it runs (its figures are kept)
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.bin
