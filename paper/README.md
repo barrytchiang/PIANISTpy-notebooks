@@ -1,7 +1,6 @@
 # Reproducing Chiang+(2026d)
 
-One notebook per figure family of [Chiang+(2026d)](https://pianistpy.com/docs/project/citing), added with the 1.0.0
-release. Each notebook names the figures it reproduces, the release it was run with, the models it builds (with
+One notebook per figure family of [Chiang+(2026d)](https://pianistpy.com/docs/project/citing), released with version 0.9.9. Each notebook names the figures it reproduces, the release it was run with, the models it builds (with
 their identities and seeds) and the measured numbers the figure captions quote. The two illustrations of the
 paper (the truncation sketch and the projection sketch) are drawings and have no notebook.
 

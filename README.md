@@ -26,7 +26,7 @@ superposition and inference; an aperture of arbitrary geometry.
 
 ### Reproducing Chiang+(2026d) (`paper/`)
 
-One notebook per figure family of [Chiang+(2026d)](https://pianistpy.com/docs/project/citing), added with the 1.0.0 release: the distribution-function panels;
+One notebook per figure family of [Chiang+(2026d)](https://pianistpy.com/docs/project/citing), released with version 0.9.9: the distribution-function panels;
 the superposition figures with the fit of an anisotropy profile over the superposition weights; the observable
 mocks; the appendix figures.
 
