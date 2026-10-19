@@ -1,6 +1,6 @@
 # PIANISTpy notebooks
 
-Tutorials and the notebooks that reproduce the figures of the PIANISTpy paper. Every notebook is stored with its
+Tutorials and the notebooks that reproduce the figures of the PIANISTpy initial release paper. Every notebook is stored with its
 outputs and was run against the PIANISTpy release named below; the documentation site at
 [pianistpy.com](https://pianistpy.com) renders them as pages of its manual.
 
