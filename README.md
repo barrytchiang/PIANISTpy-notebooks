@@ -1,6 +1,6 @@
 # PIANISTpy notebooks
 
-Tutorials and the notebooks that reproduce the figures of the PIANISTpy initial release paper, [Chiang, van den Bosch and Schive (2026d)](https://pianistpy.com/docs/project/citing). Every notebook is stored with its
+Tutorials and the notebooks that reproduce the figures of the PIANISTpy initial release paper, [Chiang, van den Bosch and Schive (2026d), MNRAS](https://pianistpy.com/docs/project/citing), submitted (henceforth [Chiang+(2026d)](https://pianistpy.com/docs/project/citing)). Every notebook is stored with its
 outputs and was run against the PIANISTpy release named below; the documentation site at
 [pianistpy.com](https://pianistpy.com) renders them as pages of its manual.
 
@@ -24,9 +24,9 @@ release; the development branch of the package may be ahead of them.
 Planned for 1.0.0: a truncated model (profile to distribution function to model, Method I and Method II);
 superposition and inference; an aperture of arbitrary geometry.
 
-### Reproducing Chiang et al. (2026d) (`paper/`)
+### Reproducing Chiang+(2026d) (`paper/`)
 
-One notebook per figure family of [Chiang et al. (2026d)](https://pianistpy.com/docs/project/citing), added with the 1.0.0 release: the distribution-function panels;
+One notebook per figure family of [Chiang+(2026d)](https://pianistpy.com/docs/project/citing), added with the 1.0.0 release: the distribution-function panels;
 the superposition figures with the fit of an anisotropy profile over the superposition weights; the observable
 mocks; the appendix figures.
 
