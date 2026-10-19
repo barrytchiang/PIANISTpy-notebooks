@@ -1,6 +1,6 @@
-# Reproducing the paper
+# Reproducing Chiang et al. (2026d)
 
-One notebook per figure family of the paper (Chiang, van den Bosch and Schive 2026), added with the 1.0.0
+One notebook per figure family of [Chiang et al. (2026d)](https://pianistpy.com/docs/project/citing), added with the 1.0.0
 release. Each notebook names the figures it reproduces, the release it was run with, the models it builds (with
 their identities and seeds) and the measured numbers the figure captions quote. The two illustrations of the
 paper (the truncation sketch and the projection sketch) are drawings and have no notebook.
