@@ -1,0 +1,15 @@
+# The versions these notebooks were executed with. Each notebook that calls an external code checks the installed
+# version against the pin below before calling it, and stops that comparison on a mismatch.
+pianistpy==1.0.0
+numpy==2.4.3
+scipy==1.17.1
+matplotlib==3.10.7
+# Fig. 8's two comparison codes
+galpy==1.11.0
+# AGAMA (https://github.com/GalacticDynamics-Oxford/Agama): installed by pip from its GitHub repository; its package
+# version is 1.0 and its module reports build 1.0.156, the version Fig. 8 checks
+agama==1.0
+# to execute the notebooks
+nbformat
+nbclient
+ipykernel

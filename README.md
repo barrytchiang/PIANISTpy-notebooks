@@ -1,39 +1,31 @@
 # PIANISTpy notebooks
 
-Tutorials and the notebooks that reproduce the result figures of the PIANISTpy initial release paper, [Chiang, van den Bosch and Schive (2026d), MNRAS](https://pianistpy.com/docs/project/citing), submitted (henceforth [Chiang+(2026d)](https://pianistpy.com/docs/project/citing)). Every notebook is stored with its
-outputs and was run against the PIANISTpy release named below; the documentation site at
-[pianistpy.com](https://pianistpy.com) renders them as pages of its manual.
-
-The package itself is [PIANISTpy](https://github.com/barrytchiang/PIANISTpy); install it with
-`pip install pianistpy` before running a notebook.
-
-## Release
-
-These notebooks were run with PIANISTpy ver. 0.9.0 (a pre-release). They are rerun and committed again with each
-release; the development branch of the package may be ahead of them.
-
-## Index
-
-### Tutorials (`tutorials/`)
-
-| Notebook | What it shows |
-|---|---|
-| `tutorials/particles.ipynb` | A sampler on an analytic Hernquist model: the draw, the enclosed mass against the closed form, a file written and read back |
-| `tutorials/observables.ipynb` | Line-of-sight dispersions at projected radii and over apertures, a prepared table, the same in physical units |
-
-Planned for ver. 1.0.0: a truncated model (profile to distribution function to model, Method I and Method II);
-superposition and inference; an aperture of arbitrary geometry.
-
-### Reproducing Chiang+(2026d) (`paper/`)
-
-One notebook per figure family of [Chiang+(2026d)](https://pianistpy.com/docs/project/citing), released with ver. 0.9.9: the distribution-function panels;
-the superposition figures with the fit of an anisotropy profile over the superposition weights; the observable
-mocks; the appendix figures.
+Jupyter notebooks for [PIANISTpy](https://github.com/barrytchiang/PIANISTpy): two tutorials, and the notebooks that
+reproduce the result figures of
+[Chiang, van den Bosch and Schive (2026d), MNRAS submitted, arXiv:2610.28758](https://arxiv.org/abs/2610.28758), henceforth Chiang+(2026d). Every
+notebook is stored with its outputs from PIANISTpy ver. 1.0.0, and the
+[Examples](https://pianistpy.com/docs/notebooks/) pages of the website show each one.
 
 ## Running a notebook
 
-Each notebook's first cell states the package version and the extra packages it needs beyond PIANISTpy. The
-figure notebooks build their models on a compute node; the tutorials run on a laptop.
+`pip install -r requirements.txt` installs PIANISTpy ver. 1.0.0 and the other packages the notebooks use. Each
+notebook computes every number and figure it shows in its own cells. The tutorials run on a laptop; the first cell
+of each figure notebook states its run time on one 32-core node, from about 2 minutes to about two hours.
+
+## Notebooks
+
+| Notebook | Content |
+|---|---|
+| `tutorials/particles.ipynb` | Particle initial conditions drawn from an analytic Hernquist model, the enclosed mass against the closed form, and a file written and read back |
+| `tutorials/observables.ipynb` | Line-of-sight velocity dispersions at projected radii and over apertures, also in physical units |
+| `paper/fig04_05_06.ipynb` | Figs. 4, 5 and 6 of Chiang+(2026d): distribution functions with and without truncation |
+| `paper/fig07.ipynb` | Fig. 7: anisotropy profiles from linear superposition |
+| `paper/fig08.ipynb` | Fig. 8: isotropic NFW benchmark against other codes |
+| `paper/fig13_15_16.ipynb` | Figs. 13, 15 and 16: velocity distributions and observables |
+| `paper/figC1_C2.ipynb` | Figs. C1 and C2: distribution function and velocity distribution accuracy checks |
+
+The scripts and layout files under `paper/scripts/` and `paper/data/` are the figure notebooks' plotting code and
+the page layouts of the published Figs. 4 to 6; they hold no computed values.
 
 ## License
 
