@@ -1,6 +1,6 @@
 # The versions these notebooks were executed with. Each notebook that calls an external code checks the installed
 # version against the pin below before calling it, and stops that comparison on a mismatch.
-pianistpy==1.0.0
+pianistpy==1.0.1
 numpy==2.4.3
 scipy==1.17.1
 matplotlib==3.10.7

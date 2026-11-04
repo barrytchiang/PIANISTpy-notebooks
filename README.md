@@ -3,12 +3,12 @@
 Jupyter notebooks for [PIANISTpy](https://github.com/barrytchiang/PIANISTpy): two tutorials, and the notebooks that
 reproduce the result figures of
 [Chiang, van den Bosch and Schive (2026d), MNRAS submitted, arXiv:2610.28758](https://arxiv.org/abs/2610.28758), henceforth Chiang+(2026d). Every
-notebook is stored with its outputs from PIANISTpy ver. 1.0.0, and the
+notebook is stored with its outputs from PIANISTpy ver. 1.0.1, and the
 [Examples](https://pianistpy.com/docs/notebooks/) pages of the website show each one.
 
 ## Running a notebook
 
-`pip install -r requirements.txt` installs PIANISTpy ver. 1.0.0 and the other packages the notebooks use. Each
+`pip install -r requirements.txt` installs PIANISTpy ver. 1.0.1 and the other packages the notebooks use. Each
 notebook computes every number and figure it shows in its own cells. The tutorials run on a laptop; the first cell
 of each figure notebook states its run time on one 32-core node, from about 2 minutes to about two hours.
 
